@@ -77,17 +77,4 @@ class MusicLibraryController
     end 
   end 
   
-  private
-  
-  def commands
-    when input =="list songs"
-      list_songs
-      
-  
-  
-  
-  
-  
-  
-  
  end 
