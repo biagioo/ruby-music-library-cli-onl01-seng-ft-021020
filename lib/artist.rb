@@ -1,5 +1,6 @@
 require 'pry'
 class Artist
+ 
  extend Concerns::Findable
  attr_accessor :name, :genre, :songs
  #attr_reader 
@@ -40,7 +41,6 @@ class Artist
     self.songs.collect{ |song| artist_genres << song.genre}
     artist_genres.uniq
   end 
-  
   
 end 
 
