@@ -71,6 +71,8 @@ class MusicLibraryController
     input = gets.chomp
     binding.pry
     
+    if 
+    
   end 
   
   
